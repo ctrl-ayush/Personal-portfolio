@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/b40d33de40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 id="logo"><span id="cap">A</span>yush</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="chota-image">
+            <img src="images/chota 2 mera.png" alt="">
+        </div>
+        <div class="header-text">
+            
+            <h1>Hi, it's  <span id="cap">Ayush</span></h1>
+            <h1 id="designation">I am  <span id="element">Web Developer</span></h2>
+            <p id="header-p">I am a front-end web developer ensuring responsive design and seamless functionality and is committed to delive high-quality, scalable solutions tailored to meet the unique needs of each project.</p>
+            <a href="#contact"><button class="btns" id="chota-btn1">Hire Me</button></a>
+            <a href="https://github.com/ctrl-ayush"><button class="btns" id="chota-btn">Git Hub</button></a>
+        </div>
+     </div>
+
+</div>
+<!-- --------------------------------about-------------------------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Picsart_24-08-09_19-00-44-613.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>I am a dedicated coder and web developer known for my hard work and commitment to excellence. With a strong foundation in web development, I consistently deliver high-quality, responsive websites that meet both user and client needs. My relentless pursuit of improvement and innovation ensures that I stay at the forefront of technology, making me a reliable and valuable professional in the tech industry.My dedication to continuous learning and improvement ensures that I stay ahead in the ever-evolving world of technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing web pages</li>
+                        <li><span>App Development</span><br>User Interface for Android/Ios</li>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Developer</span><br>Full time Web Developer at best club our college @HITianInside</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Graduation</span><br>Currently Persuing BTECH in CSE-AIML from Haldia Institute of Technology</li>
+                        <li><span>Senior-Secondary</span><br>Persued from Guru Gobind Singh Public School,Bokaro ,Jharkhand  with PCM+CS </li>
+                        <li><span>Secondary</span><br>Persued from Denobili School Chandrapura,Bokaro ,Jharkhand</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------------------servicess------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services -:</h1><br>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2><br>
+                <p>Web design crafts user-friendly interfaces, ensuring seamless navigation and brand consistency across all devices. It balances aesthetics with functionality to enhance user experience.</p>
+                <br><a href="https://www.interaction-design.org/literature/topics/web-design">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design </h2><br>
+                <p>App design focuses on creating intuitive, visually appealing interfaces, ensuring smooth user interactions across devices. It combines usability with aesthetics to deliver an optimal mobile experience.</p>
+                <br><a href="https://buildfire.com/tools-for-mobile-app-designers/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-images"></i>
+                <h2>Photography</h2><br>
+                <p>Photography captures moments through a creative lens, using composition, lighting, and perspective to convey emotions and tell stories. It blends technical skill with artistic vision to create impactful images.</p>
+                <br><a href="https://en.wikipedia.org/wiki/Photography">Learn more</a>
+            </div>
+
+
+ 
+        </div>
+
+
+    </div>
+</div>
+<!-- ----------------------------My work--------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/web design.webp" alt="" >
+                <div class="layer">
+                    <h3>Cat Facts website</h3>
+                    <p>This website gives you random cats fact..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/photo-1519124080359-bfc4bb96f9aa.avif" alt="">
+                <div class="layer">
+                    <h3>Apps</h3>
+                    <p>Comming soon...</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/lens-camera_101299-11.jpg" alt="">
+                <div class="layer">
+                    <h3>Photography</h3>
+                    <p>Click to see some amazing photos...</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <a href="#"><button class="btn">See More...</button></a>
+</div>
+<!-- ------------------------Contact-------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2><br>
+                <p id="emails"><i class="fa-solid fa-envelope"></i><a href="malhotrastar69@gmail.com"> malhotrastar69@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+91 9334271907"> +91 9334271907</a></p><br>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/onkar.verma.370?mibextid=rS40aB7S9Ucbxw6v" ><i class="fa-brands fa-facebook"></i> </a>
+                    <a href="https://www.instagram.com/lucifferr_02/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ayush-kumar-verma-29439730a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/ayushhh_vermaaa?t=JSrYUv4s0Yg-R0OLImDp3g&s=08"><i class="fa-brands fa-square-x-twitter"></i></a>   
+                    <a href="images/cv document.pdf" download="Ayush's CV"><button class="btn">Download CV</button></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+                <p id="msg"></p>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="last">
+    <p>Copyright© All rights reserved Ayush , Made with <span class="heart">❤</span> by Lucifer</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
